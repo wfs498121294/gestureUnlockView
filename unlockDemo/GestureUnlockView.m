@@ -136,6 +136,10 @@
             [self shakeStatusMessage:nil textColor:nil];
         }
         else{
+            self.mistakecount --;
+            if (self.mistakecount < 0) {
+                self.mistakecount = 0;
+            }
             self.statusLabel.text = @"多次输入错误，请5分钟后再试";
             self.gestureView.userInteractionEnabled = NO;
             [self shakeStatusMessage:nil textColor:nil];
@@ -248,9 +252,10 @@
                 weakself.statusLabel.textColor = textcolor;
             }
             
-            if (weakself.mistakecount>0) {
+            if (weakself.mistakecount>0||weakself.type == UnlocktypeSet) {
                 weakself.gestureView.userInteractionEnabled = YES;
             }
+            
           
         }];
         [weakself.statusLabel.layer pop_addAnimation:positionAnimation forKey:@"positionAnimation"];
