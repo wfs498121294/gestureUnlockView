@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B537D1D20B64B40001F3DB7 /* GestureUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B537D1C20B64B40001F3DB7 /* GestureUnlockView.m */; };
+		0B537D2020B64CB2001F3DB7 /* UIViewController+CAR.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B537D1F20B64CB1001F3DB7 /* UIViewController+CAR.m */; };
+		0B537D2320B665F6001F3DB7 /* CARWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B537D2220B665F6001F3DB7 /* CARWarning.m */; };
+		0B69AAFE20B514F200D8059D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B69AAFD20B514F200D8059D /* AppDelegate.m */; };
+		0B69AB0120B514F200D8059D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B69AB0020B514F200D8059D /* ViewController.m */; };
+		0B69AB0420B514F200D8059D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB0220B514F200D8059D /* Main.storyboard */; };
+		0B69AB0620B514F200D8059D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB0520B514F200D8059D /* Assets.xcassets */; };
+		0B69AB0920B514F200D8059D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB0720B514F200D8059D /* LaunchScreen.storyboard */; };
+		0B69AB0C20B514F200D8059D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B69AB0B20B514F200D8059D /* main.m */; };
+		0B69AB1420B515ED00D8059D /* GestureUnlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B69AB1320B515ED00D8059D /* GestureUnlockVC.m */; };
+		0B69AB1720B5161E00D8059D /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B69AB1620B5161E00D8059D /* LocalAuthentication.framework */; };
+		0B69AB1A20B5164200D8059D /* TouchIDUnlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B69AB1920B5164200D8059D /* TouchIDUnlockVC.m */; };
+		0B69AB1D20B5493400D8059D /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B69AB1C20B5493400D8059D /* GestureView.m */; };
+		0B69AB2520B561E100D8059D /* gesture_unlock_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB1F20B561E100D8059D /* gesture_unlock_selected@3x.png */; };
+		0B69AB2620B561E100D8059D /* gesture_unlock_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB2020B561E100D8059D /* gesture_unlock_default@2x.png */; };
+		0B69AB2720B561E100D8059D /* gesture_unlock_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB2120B561E100D8059D /* gesture_unlock_default@3x.png */; };
+		0B69AB2820B561E100D8059D /* gesture_unlock_mistake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB2220B561E100D8059D /* gesture_unlock_mistake@2x.png */; };
+		0B69AB2920B561E100D8059D /* gesture_unlock_mistake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB2320B561E100D8059D /* gesture_unlock_mistake@3x.png */; };
+		0B69AB2A20B561E100D8059D /* gesture_unlock_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB2420B561E100D8059D /* gesture_unlock_selected@2x.png */; };
+		DB1D91E045C88756692AF89D /* libPods-unlockDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE86C02AA6535D4DC379F64 /* libPods-unlockDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B537D1B20B64B40001F3DB7 /* GestureUnlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureUnlockView.h; sourceTree = "<group>"; };
+		0B537D1C20B64B40001F3DB7 /* GestureUnlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureUnlockView.m; sourceTree = "<group>"; };
+		0B537D1E20B64CB0001F3DB7 /* UIViewController+CAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CAR.h"; sourceTree = "<group>"; };
+		0B537D1F20B64CB1001F3DB7 /* UIViewController+CAR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CAR.m"; sourceTree = "<group>"; };
+		0B537D2120B665F5001F3DB7 /* CARWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARWarning.h; sourceTree = "<group>"; };
+		0B537D2220B665F6001F3DB7 /* CARWarning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARWarning.m; sourceTree = "<group>"; };
+		0B69AAF920B514F200D8059D /* unlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B69AAFC20B514F200D8059D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B69AAFD20B514F200D8059D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B69AAFF20B514F200D8059D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B69AB0020B514F200D8059D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B69AB0320B514F200D8059D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B69AB0520B514F200D8059D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B69AB0820B514F200D8059D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B69AB0A20B514F200D8059D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B69AB0B20B514F200D8059D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B69AB1220B515ED00D8059D /* GestureUnlockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureUnlockVC.h; sourceTree = "<group>"; };
+		0B69AB1320B515ED00D8059D /* GestureUnlockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureUnlockVC.m; sourceTree = "<group>"; };
+		0B69AB1620B5161E00D8059D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		0B69AB1820B5164200D8059D /* TouchIDUnlockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchIDUnlockVC.h; sourceTree = "<group>"; };
+		0B69AB1920B5164200D8059D /* TouchIDUnlockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDUnlockVC.m; sourceTree = "<group>"; };
+		0B69AB1B20B5493400D8059D /* GestureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		0B69AB1C20B5493400D8059D /* GestureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		0B69AB1F20B561E100D8059D /* gesture_unlock_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_unlock_selected@3x.png"; sourceTree = "<group>"; };
+		0B69AB2020B561E100D8059D /* gesture_unlock_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_unlock_default@2x.png"; sourceTree = "<group>"; };
+		0B69AB2120B561E100D8059D /* gesture_unlock_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_unlock_default@3x.png"; sourceTree = "<group>"; };
+		0B69AB2220B561E100D8059D /* gesture_unlock_mistake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_unlock_mistake@2x.png"; sourceTree = "<group>"; };
+		0B69AB2320B561E100D8059D /* gesture_unlock_mistake@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_unlock_mistake@3x.png"; sourceTree = "<group>"; };
+		0B69AB2420B561E100D8059D /* gesture_unlock_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_unlock_selected@2x.png"; sourceTree = "<group>"; };
+		323253B4EBB94D9CEB56EDF2 /* Pods-unlockDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unlockDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-unlockDemo/Pods-unlockDemo.release.xcconfig"; sourceTree = "<group>"; };
+		94722E788CB7EC14D5172E6A /* Pods-unlockDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unlockDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unlockDemo/Pods-unlockDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE86C02AA6535D4DC379F64 /* libPods-unlockDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unlockDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B69AAF620B514F200D8059D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B69AB1720B5161E00D8059D /* LocalAuthentication.framework in Frameworks */,
+				DB1D91E045C88756692AF89D /* libPods-unlockDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B69AAF020B514F200D8059D = {
+			isa = PBXGroup;
+			children = (
+				0B69AAFB20B514F200D8059D /* unlockDemo */,
+				0B69AAFA20B514F200D8059D /* Products */,
+				0B69AB1520B5161E00D8059D /* Frameworks */,
+				ED20D46365FA94B40E509A57 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0B69AAFA20B514F200D8059D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B69AAF920B514F200D8059D /* unlockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B69AAFB20B514F200D8059D /* unlockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0B69AB1E20B561D500D8059D /* Susport */,
+				0B69AAFC20B514F200D8059D /* AppDelegate.h */,
+				0B69AAFD20B514F200D8059D /* AppDelegate.m */,
+				0B69AAFF20B514F200D8059D /* ViewController.h */,
+				0B69AB0020B514F200D8059D /* ViewController.m */,
+				0B69AB1220B515ED00D8059D /* GestureUnlockVC.h */,
+				0B69AB1320B515ED00D8059D /* GestureUnlockVC.m */,
+				0B69AB1B20B5493400D8059D /* GestureView.h */,
+				0B69AB1C20B5493400D8059D /* GestureView.m */,
+				0B537D2120B665F5001F3DB7 /* CARWarning.h */,
+				0B537D2220B665F6001F3DB7 /* CARWarning.m */,
+				0B537D1B20B64B40001F3DB7 /* GestureUnlockView.h */,
+				0B537D1C20B64B40001F3DB7 /* GestureUnlockView.m */,
+				0B537D1E20B64CB0001F3DB7 /* UIViewController+CAR.h */,
+				0B537D1F20B64CB1001F3DB7 /* UIViewController+CAR.m */,
+				0B69AB1820B5164200D8059D /* TouchIDUnlockVC.h */,
+				0B69AB1920B5164200D8059D /* TouchIDUnlockVC.m */,
+				0B69AB0220B514F200D8059D /* Main.storyboard */,
+				0B69AB0520B514F200D8059D /* Assets.xcassets */,
+				0B69AB0720B514F200D8059D /* LaunchScreen.storyboard */,
+				0B69AB0A20B514F200D8059D /* Info.plist */,
+				0B69AB0B20B514F200D8059D /* main.m */,
+			);
+			path = unlockDemo;
+			sourceTree = "<group>";
+		};
+		0B69AB1520B5161E00D8059D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B69AB1620B5161E00D8059D /* LocalAuthentication.framework */,
+				BCE86C02AA6535D4DC379F64 /* libPods-unlockDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B69AB1E20B561D500D8059D /* Susport */ = {
+			isa = PBXGroup;
+			children = (
+				0B69AB2020B561E100D8059D /* gesture_unlock_default@2x.png */,
+				0B69AB2120B561E100D8059D /* gesture_unlock_default@3x.png */,
+				0B69AB2220B561E100D8059D /* gesture_unlock_mistake@2x.png */,
+				0B69AB2320B561E100D8059D /* gesture_unlock_mistake@3x.png */,
+				0B69AB2420B561E100D8059D /* gesture_unlock_selected@2x.png */,
+				0B69AB1F20B561E100D8059D /* gesture_unlock_selected@3x.png */,
+			);
+			path = Susport;
+			sourceTree = "<group>";
+		};
+		ED20D46365FA94B40E509A57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94722E788CB7EC14D5172E6A /* Pods-unlockDemo.debug.xcconfig */,
+				323253B4EBB94D9CEB56EDF2 /* Pods-unlockDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B69AAF820B514F200D8059D /* unlockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B69AB0F20B514F200D8059D /* Build configuration list for PBXNativeTarget "unlockDemo" */;
+			buildPhases = (
+				468CAC402E2F5A33E67444AB /* [CP] Check Pods Manifest.lock */,
+				0B69AAF520B514F200D8059D /* Sources */,
+				0B69AAF620B514F200D8059D /* Frameworks */,
+				0B69AAF720B514F200D8059D /* Resources */,
+				4AB548FA741F091C015E28E6 /* [CP] Embed Pods Frameworks */,
+				9EB0D25643221CCEA8172403 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unlockDemo;
+			productName = unlockDemo;
+			productReference = 0B69AAF920B514F200D8059D /* unlockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B69AAF120B514F200D8059D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Allintask;
+				TargetAttributes = {
+					0B69AAF820B514F200D8059D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0B69AAF420B514F200D8059D /* Build configuration list for PBXProject "unlockDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B69AAF020B514F200D8059D;
+			productRefGroup = 0B69AAFA20B514F200D8059D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B69AAF820B514F200D8059D /* unlockDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B69AAF720B514F200D8059D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B69AB0920B514F200D8059D /* LaunchScreen.storyboard in Resources */,
+				0B69AB2720B561E100D8059D /* gesture_unlock_default@3x.png in Resources */,
+				0B69AB2920B561E100D8059D /* gesture_unlock_mistake@3x.png in Resources */,
+				0B69AB2620B561E100D8059D /* gesture_unlock_default@2x.png in Resources */,
+				0B69AB2A20B561E100D8059D /* gesture_unlock_selected@2x.png in Resources */,
+				0B69AB0620B514F200D8059D /* Assets.xcassets in Resources */,
+				0B69AB2520B561E100D8059D /* gesture_unlock_selected@3x.png in Resources */,
+				0B69AB2820B561E100D8059D /* gesture_unlock_mistake@2x.png in Resources */,
+				0B69AB0420B514F200D8059D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		468CAC402E2F5A33E67444AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unlockDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AB548FA741F091C015E28E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unlockDemo/Pods-unlockDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB0D25643221CCEA8172403 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unlockDemo/Pods-unlockDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B69AAF520B514F200D8059D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B69AB1D20B5493400D8059D /* GestureView.m in Sources */,
+				0B69AB1420B515ED00D8059D /* GestureUnlockVC.m in Sources */,
+				0B537D1D20B64B40001F3DB7 /* GestureUnlockView.m in Sources */,
+				0B69AB0120B514F200D8059D /* ViewController.m in Sources */,
+				0B69AB0C20B514F200D8059D /* main.m in Sources */,
+				0B69AB1A20B5164200D8059D /* TouchIDUnlockVC.m in Sources */,
+				0B69AAFE20B514F200D8059D /* AppDelegate.m in Sources */,
+				0B537D2020B64CB2001F3DB7 /* UIViewController+CAR.m in Sources */,
+				0B537D2320B665F6001F3DB7 /* CARWarning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B69AB0220B514F200D8059D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B69AB0320B514F200D8059D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B69AB0720B514F200D8059D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B69AB0820B514F200D8059D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B69AB0D20B514F200D8059D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B69AB0E20B514F200D8059D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B69AB1020B514F200D8059D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94722E788CB7EC14D5172E6A /* Pods-unlockDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83A85PL63X;
+				INFOPLIST_FILE = unlockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LD.unlockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B69AB1120B514F200D8059D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323253B4EBB94D9CEB56EDF2 /* Pods-unlockDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83A85PL63X;
+				INFOPLIST_FILE = unlockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LD.unlockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B69AAF420B514F200D8059D /* Build configuration list for PBXProject "unlockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B69AB0D20B514F200D8059D /* Debug */,
+				0B69AB0E20B514F200D8059D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B69AB0F20B514F200D8059D /* Build configuration list for PBXNativeTarget "unlockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B69AB1020B514F200D8059D /* Debug */,
+				0B69AB1120B514F200D8059D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B69AAF120B514F200D8059D /* Project object */;
+}
